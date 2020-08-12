@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "test": "npm run netconomy && npm run vanilla",
     "netconomy": "node index.js \"https://www.melectronics.ch/de/cp/aktionen\" netconomy",
     "vanilla": "node index.js \"https://www.melectronics.ch/lp/aktionen\" vanilla"
   },
