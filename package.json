@@ -1,0 +1,17 @@
+{
+  "name": "lighthouse-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "netconomy": "node index.js \"https://www.melectronics.ch/de/cp/aktionen\" netconomy",
+    "vanilla": "node index.js \"https://www.melectronics.ch/lp/aktionen\" vanilla"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lighthouse": "6.1.1",
+    "puppeteer": "5.2.1"
+  }
+}
